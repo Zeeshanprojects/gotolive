@@ -3,3 +3,8 @@
     width: 100% !important;
     object-fit: cover ;
 }
+.background-section{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

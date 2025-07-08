@@ -9,7 +9,8 @@ import '../assets/CSS/Home.css'
 
 export default function Home() {
   return (
-   <div className="col-lg-12">
+    <>
+    <div className="col-lg-12">
 <Swiper
   spaceBetween={0}
   slidesPerView={1}
@@ -47,6 +48,12 @@ export default function Home() {
     </SwiperSlide>
   </Swiper>
 </div>
+<div className="background-section">
+    <h5 className="text-white">Upcoming Events</h5>
+</div>
+    </>
+   
+
 
   );
 }
