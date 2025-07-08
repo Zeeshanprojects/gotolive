@@ -50,6 +50,8 @@ export default function Home() {
 </div>
 <div className="background-section">
     <h5 className="text-white">Upcoming Events</h5>
+     <h5 className="text-white">Upcoming Events</h5>
+     <h5 className="text-white">Upcoming Events</h5>
 </div>
     </>
    
