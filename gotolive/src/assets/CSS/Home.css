@@ -5,6 +5,13 @@
 }
 .background-section{
     background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cards {
+  height: 500px;
+
+  object-fit: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
 }
