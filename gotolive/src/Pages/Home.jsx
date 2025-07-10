@@ -77,7 +77,7 @@ export default function Home() {
             </Swiper>
           </div>
         </div>
-        <div className="container mt-5">
+        <div className="container mt-5 ps-5 pe-5">
           <h5 className="text-white mb-3 ">Past Events 2025</h5>
           <Swiper
             spaceBetween={3}
@@ -136,6 +136,60 @@ export default function Home() {
         </div>
           <div className="container">
         <h5 className="text-white mb-3 mt-5">Past Events 2024</h5>
+          <Swiper
+            spaceBetween={3}
+            slidesPerView={5}
+            loop={true}
+            navigation={true}
+            // style={{ width: "1042.812px" }} // ✅ this is correct
+            pagination={{ clickable: true }}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay, Navigation, Pagination]}
+          >
+            <SwiperSlide>
+              <img src={Images.card17} alt="card1" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card18} alt="card2" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card19} alt="card3" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card20} alt="card1" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card21} alt="card2" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card22} alt="card3" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card23} alt="card1" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card24} alt="card2" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card25} alt="card3" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card26} alt="card1" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card27} alt="card2" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card28} alt="card3" className="cards" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Images.card29} alt="card1" className="cards" />
+            </SwiperSlide>
+           
+          </Swiper>
       </div>
       </div>
 
