@@ -10,5 +10,18 @@ const Images = {
   card1: new URL("./card1.webp", import.meta.url).href,
   card2: new URL("./card2.webp", import.meta.url).href,
   card3: new URL("./card3.webp", import.meta.url).href,
+  card4: new URL("./card4.webp", import.meta.url).href,
+  card5: new URL("./card5.webp", import.meta.url).href,
+  card6: new URL("./card6.webp", import.meta.url).href,
+  card7: new URL("./card7.webp", import.meta.url).href,
+  card8: new URL("./card8.webp", import.meta.url).href,
+  card9: new URL("./card9.webp", import.meta.url).href,
+  card10: new URL("./card10.webp", import.meta.url).href,
+  card11: new URL("./card11.webp", import.meta.url).href,
+  card12: new URL("./card12.webp", import.meta.url).href,
+  card13: new URL("./card13.webp", import.meta.url).href,
+  card14: new URL("./card14.webp", import.meta.url).href,
+  card15: new URL("./card15.webp", import.meta.url).href,
+  card16: new URL("./card16.webp", import.meta.url).href,
 };
 export default Images;
