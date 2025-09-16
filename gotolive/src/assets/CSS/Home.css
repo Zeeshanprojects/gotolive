@@ -1,12 +1,12 @@
-.sliderdesign{
-    height: 550px;
-    width: 100% !important;
-    object-fit: cover ;
+.sliderdesign {
+  height: auto;
+  width: 100% !important;
+  object-fit: cover;
 }
-.background-section{
-    background-color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.background-section {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .cards {
   height: 400px;
@@ -15,7 +15,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.swiper-button-prev , .swiper-button-next{
+.swiper-button-prev,
+.swiper-button-next {
   color: white !important;
 }
- 

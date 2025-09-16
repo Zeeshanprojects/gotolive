@@ -1,4 +1,5 @@
 import React from "react";
+import './header.css'
 import Images from "../assets/Images/Image";
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div className="container-fluid ps-lg-5 pe-lg-5">
           <a className="navbar-brand" href="#">
-            <img src={Images.logo} alt="logo" />
+            <img src={Images.logo} alt="logo" className="logo" />
           </a>
           <button
             className="navbar-toggler"
@@ -32,68 +33,7 @@ export default function Header() {
                   Schedule
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  All Events
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Water Polo
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Rugby
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Open Water Swimming
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Swimming
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Wrestling
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Hockey
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Diving
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Triathlon
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
+            
             </ul>
             <form className="d-flex">
               <button
