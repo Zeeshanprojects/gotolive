@@ -1,6 +1,6 @@
 import React from "react";
 import Images from "../assets/Images/Image";
-
+import {Link} from "react-router-dom"
 
 export default function Detail() {
   return (
@@ -21,8 +21,10 @@ export default function Detail() {
 
             {/* Buttons */}
             <div>
-              <button className="btn btn-danger me-3">Watch Now</button>
-              <button className="btn btn-outline-light">Share</button>
+              <Link to="/watchfree">
+                <button className="btn me-3">Watch Now</button></Link>
+            
+              <button className="btn ">Share</button>
             </div>
           </div>
 

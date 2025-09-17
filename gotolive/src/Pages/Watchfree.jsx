@@ -8,18 +8,17 @@ export default function Watchfree() {
         {/* Left Side - Video Section */}
         <div className="col-12 col-lg-8 video-section">
           <div className="video-wrapper">
-            <video
-              src="https://www.w3schools.com/html/mov_bbb.mp4"
-              controls
-              autoPlay
-              muted
-            ></video>
+            <video src=""></video>
 
             {/* Score Overlay */}
-            <div className="score-overlay d-flex justify-content-between align-items-center px-3">
-              <span className="team legacy">LEGACY <b>6</b></span>
-              <span className="team longbeach">LONG BEACH <b>1</b></span>
-              <span className="period">2ND</span>
+            <div className="score-overlay d-flex justify-content-between align-items-center px-3 py-2">
+              <div className="team legacy">
+                LEGACY <span className="score">6</span>
+              </div>
+              <div className="period">2ND</div>
+              <div className="team longbeach">
+                LONG BEACH <span className="score">1</span>
+              </div>
             </div>
           </div>
         </div>
@@ -36,7 +35,7 @@ export default function Watchfree() {
               placeholder="Type your message..."
               className="form-control"
             />
-            <button className="btn btn-danger ms-2">Send</button>
+            <button className="btn  ms-2">Send</button>
           </div>
         </div>
       </div>

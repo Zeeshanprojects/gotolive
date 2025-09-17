@@ -2,6 +2,7 @@ import React from "react";
 import Images from "../assets/Images/Image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import {Link} from "react-router-dom"
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -27,7 +28,7 @@ export default function Home() {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <img src={Images.slider1} alt="slider1" className="sliderdesign" />
+            <img src={Images.slider1} alt="slider1" className="sliderdesign" fetchPriority="high"/>
           </SwiperSlide>
           <SwiperSlide>
             <img src={Images.slider2} alt="slider2" className="sliderdesign" />
@@ -68,7 +69,9 @@ export default function Home() {
             >
               <div className="col-sm-12 col-md-12 col-lg-3">
                  <SwiperSlide>
-                <img src={Images.card1} alt="card1" className="cards" />
+                  <Link to="/details">
+                   <img src={Images.card1} alt="card1" className="cards" /></Link>
+               
               </SwiperSlide>
               </div>
                <div className="col-sm-12 col-md-12 col-lg-3">

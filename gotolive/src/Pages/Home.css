@@ -10,7 +10,6 @@
 }
 .cards {
   height: 400px;
-
   object-fit: cover !important;
   background-position: center;
   background-repeat: no-repeat;

@@ -56,7 +56,7 @@ export default function Header() {
               </li>
             </ul>
             <form className="d-flex">
-              <button className="btn btn-danger " type="submit">
+              <button className="btn  " type="submit">
                 Subscribe Now
               </button>
             </form>
