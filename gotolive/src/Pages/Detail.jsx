@@ -1,9 +1,11 @@
 import React from "react";
 import Images from "../assets/Images/Image";
 
+
 export default function Detail() {
   return (
     <>
+  
       <div className="container py-5">
         <div className="row align-items-center  rounded shadow-lg p-4">
           {/* Text Section */}
@@ -34,6 +36,7 @@ export default function Detail() {
           </div>
         </div>
       </div>
+    
     </>
   );
 }

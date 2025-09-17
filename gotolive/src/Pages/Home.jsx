@@ -10,6 +10,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <>
+    
       <div className="col-lg-12">
         <Swiper
           spaceBetween={0}

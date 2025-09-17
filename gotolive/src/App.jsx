@@ -6,8 +6,7 @@ import Footer from './Components/Footer'
 //Lazy imports (Pages only load whn visited)
 const Home=lazy(()=>import("./Pages/Home"))
 const Detail=lazy(()=>import("./Pages/Detail"))
-
-
+const Watchfree=lazy(()=>import("./Pages/Watchfree"))
 
 
 function App() {
@@ -19,6 +18,7 @@ function App() {
            <Routes>
         <Route path='/' element ={<Home/>}/>
         <Route path='/details'element={<Detail/>}/>
+        <Route path='/watchfree' element={<Watchfree/>}/>
       </Routes>
         </Suspense>
      
