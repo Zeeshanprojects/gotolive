@@ -56,15 +56,16 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background: #111;
-  color: white;
+  background: white;
+  color: black;
   border-left: 2px solid #222;
 }
 
 .chat-header {
   padding: 15px;
   font-weight: bold;
-  background: #222;
+  background:black;
+  color: white ;
   text-align: center;
 }
 
@@ -76,5 +77,5 @@
 
 .chat-input {
   padding: 10px;
-  background: #222;
+  background: white;
 }
