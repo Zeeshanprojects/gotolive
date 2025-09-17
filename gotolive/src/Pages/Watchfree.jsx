@@ -6,7 +6,7 @@ export default function Watchfree() {
     <div className="watchfree-container">
       <div className="row g-0">
         {/* Left Side - Video Section */}
-        <div className="col-sm-12 col-lg-8 video-section">
+        <div className="col- col-lg-8 video-section">
           <div className="video-wrapper">
             <video src=""></video>
 
