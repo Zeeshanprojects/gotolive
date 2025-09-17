@@ -9,7 +9,8 @@
   padding-bottom: 50px;
 }
 .cards {
-  height: 400px;
+  height: auto;
+width: 100% ;
   object-fit: cover !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,5 +24,12 @@
 .swiper-button-next {
   color: white !important;
    transform: scale(0.3)
+}
+.cards {
+  height: auto;
+  width: 100%;
+  object-fit: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 }

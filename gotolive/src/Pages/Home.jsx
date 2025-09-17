@@ -2,7 +2,7 @@ import React from "react";
 import Images from "../assets/Images/Image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -11,7 +11,6 @@ import "./Home.css";
 export default function Home() {
   return (
     <>
-    
       <div className="col-lg-12">
         <Swiper
           spaceBetween={0}
@@ -28,7 +27,12 @@ export default function Home() {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <img src={Images.slider1} alt="slider1" className="sliderdesign" fetchPriority="high"/>
+            <img
+              src={Images.slider1}
+              alt="slider1"
+              className="sliderdesign"
+              fetchPriority="high"
+            />
           </SwiperSlide>
           <SwiperSlide>
             <img src={Images.slider2} alt="slider2" className="sliderdesign" />
@@ -54,49 +58,25 @@ export default function Home() {
       <div className="background-section">
         <div className="container ">
           <h5 className="text-white mb-3">Upcoming events</h5>
-          <div>
-            <Swiper
-              spaceBetween={0}
-              slidesPerView={5}
-              loop={true}
-              navigation={true}
-              pagination={{ clickable: true }}
-              autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-              }}
-              modules={[Autoplay, Navigation, Pagination]}
-            >
-              <div className="col-sm-12 col-md-12 col-lg-3">
-                 <SwiperSlide>
-                  <Link to="/details">
-                   <img src={Images.card1} alt="card1" className="cards" /></Link>
-               
-              </SwiperSlide>
-              </div>
-               <div className="col-sm-12 col-md-12 col-lg-3">
-                 <SwiperSlide>
-                <img src={Images.card2} alt="card1" className="cards" />
-              </SwiperSlide>
-              </div>
-                <div className="col-sm-12 col-md-12 col-lg-3">
-                 <SwiperSlide>
-                <img src={Images.card3} alt="card1" className="cards" />
-              </SwiperSlide>
-              </div>
-                <div className="col-sm-12 col-md-12 col-lg-3">
-                 <SwiperSlide>
-                <img src={Images.card4} alt="card1" className="cards" />
-              </SwiperSlide>
-              </div>
-             
-            </Swiper>
+          <div className="row">
+           
+            <div className="col-sm-12 col-md-12 col-lg-3">
+              <Link to="/details">
+                <img src={Images.card1} alt="card1" className="cards" />
+              </Link>
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-3">
+              <img src={Images.card2} alt="card1" className="cards" />
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-3">
+              <img src={Images.card3} alt="card1" className="cards" />
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-3">
+              <img src={Images.card4} alt="card1" className="cards" />
+            </div>
           </div>
         </div>
-       
       </div>
-
-    
     </>
   );
 }

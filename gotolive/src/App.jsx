@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 // Lazy imports (Pages only load when visited)
 const Home = lazy(() => import("./Pages/Home"));
@@ -26,6 +27,7 @@ function LayoutWrapper({ children }) {
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <LayoutWrapper>
         <Suspense fallback={<div className="text-center p-5">Loading...</div>}>
           <Routes>

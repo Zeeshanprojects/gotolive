@@ -6,7 +6,7 @@ export default function Watchfree() {
     <div className="watchfree-container">
       <div className="row g-0">
         {/* Left Side - Video Section */}
-        <div className="col-12 col-lg-8 video-section">
+        <div className="col-sm-12 col-lg-8 video-section">
           <div className="video-wrapper">
             <video src=""></video>
 
@@ -15,7 +15,7 @@ export default function Watchfree() {
               <div className="team legacy">
                 LEGACY <span className="score">6</span>
               </div>
-              <div className="period">2ND</div>
+              <div className="period">VS</div>
               <div className="team longbeach">
                 LONG BEACH <span className="score">1</span>
               </div>
@@ -24,7 +24,7 @@ export default function Watchfree() {
         </div>
 
         {/* Right Side - Chat Section */}
-        <div className="col-12 col-lg-4 chat-section">
+        <div className="col-sm-12 col-lg-4 chat-section">
           <div className="chat-header">Live Chat</div>
           <div className="chat-body">
             <p className="text-muted">No messages yet...</p>
