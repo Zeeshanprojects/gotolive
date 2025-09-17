@@ -23,7 +23,7 @@ const Images = {
   card14: new URL("./card14.webp", import.meta.url).href,
   card15: new URL("./card15.webp", import.meta.url).href,
   card16: new URL("./card16.webp", import.meta.url).href,
-   card17: new URL("./card17.webp", import.meta.url).href,
+  card17: new URL("./card17.webp", import.meta.url).href,
   card18: new URL("./card18.webp", import.meta.url).href,
   card19: new URL("./card19.webp", import.meta.url).href,
   card20: new URL("./card20.webp", import.meta.url).href,
@@ -36,6 +36,6 @@ const Images = {
   card27: new URL("./card27.webp", import.meta.url).href,
   card28: new URL("./card28.webp", import.meta.url).href,
   card29: new URL("./card29.webp", import.meta.url).href,
-  
+  randompic:new URL("./randompic.webp",import.meta.url).href,
 };
 export default Images;

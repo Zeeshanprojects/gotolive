@@ -1,4 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
-    font-family: "Oswald", sans-serif !important;overflow-x: hidden; background-color: #000000 !important;
+    font-family: "Oswald", sans-serif !important;overflow-x: hidden !important; background-color: #000000 !important;
 }

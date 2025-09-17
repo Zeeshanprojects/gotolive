@@ -65,15 +65,27 @@ export default function Home() {
               }}
               modules={[Autoplay, Navigation, Pagination]}
             >
-              <SwiperSlide>
+              <div className="col-sm-12 col-md-12 col-lg-3">
+                 <SwiperSlide>
                 <img src={Images.card1} alt="card1" className="cards" />
               </SwiperSlide>
-              <SwiperSlide>
-                <img src={Images.card2} alt="card2" className="cards" />
+              </div>
+               <div className="col-sm-12 col-md-12 col-lg-3">
+                 <SwiperSlide>
+                <img src={Images.card2} alt="card1" className="cards" />
               </SwiperSlide>
-              <SwiperSlide>
-                <img src={Images.card3} alt="card3" className="cards" />
+              </div>
+                <div className="col-sm-12 col-md-12 col-lg-3">
+                 <SwiperSlide>
+                <img src={Images.card3} alt="card1" className="cards" />
               </SwiperSlide>
+              </div>
+                <div className="col-sm-12 col-md-12 col-lg-3">
+                 <SwiperSlide>
+                <img src={Images.card4} alt="card1" className="cards" />
+              </SwiperSlide>
+              </div>
+             
             </Swiper>
           </div>
         </div>
