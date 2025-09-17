@@ -20,7 +20,7 @@ export default function Detail() {
             {/* Buttons */}
             <div>
               <button className="btn btn-danger me-3">Watch Now</button>
-              <button className="btn btn-outline-light">More Info</button>
+              <button className="btn btn-outline-light">Share</button>
             </div>
           </div>
 

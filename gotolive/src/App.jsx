@@ -1,10 +1,13 @@
-import { useState } from 'react'
+import { lazy, Suspense, useState } from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './App.css'
 import Header from './Components/Header'
-import Home from './Pages/Home'
 import Footer from './Components/Footer'
-import Detail from './Pages/Detail'
+//Lazy imports (Pages only load whn visited)
+const Home=lazy(()=>import("./Pages/Home"))
+const Detail=lazy(()=>import("./Pages/Detail"))
+
+
 
 
 function App() {
@@ -12,10 +15,13 @@ function App() {
     <>
     <Router>
         <Header/>
-      <Routes>
+        <Suspense fallback={<div className="text-center p-5">Loading...</div>}>
+           <Routes>
         <Route path='/' element ={<Home/>}/>
         <Route path='/details'element={<Detail/>}/>
       </Routes>
+        </Suspense>
+     
       <Footer/>
     </Router>
     

@@ -19,3 +19,10 @@
 .swiper-button-next {
   color: white !important;
 }
+@media (max-width:575px) {
+  .swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+   transform: scale(0.3)
+}
+}

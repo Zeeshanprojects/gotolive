@@ -17,7 +17,7 @@ export default function Footer() {
                 className="footerlogo mb-3"
               />
               <p className="small  mb-0">
-                © {new Date().getFullYear()} PTX. All Rights Reserved.
+                © {new Date().getFullYear()} ZIMSPORTS. All Rights Reserved.
               </p>
             </div>
 
