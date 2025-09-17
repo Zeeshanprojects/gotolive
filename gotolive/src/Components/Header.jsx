@@ -1,11 +1,11 @@
 import React from "react";
-import './header.css'
+import "./header.css";
 import Images from "../assets/Images/Image";
 
 export default function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent ">
         <div className="container-fluid ps-lg-5 pe-lg-5">
           <a className="navbar-brand" href="#">
             <img src={Images.logo} alt="logo" className="logo" />
@@ -25,23 +25,36 @@ export default function Header() {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
+                  HOME
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Schedule
+                <a className="nav-link active" href="#">
+                  EVENTS
                 </a>
               </li>
-            
+              <li className="nav-item">
+                <a className="nav-link active" href="#">
+                  LIVE
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" href="#">
+                  PODCAST
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" href="#">
+                  ABOUT
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" href="#">
+                  CONTACT
+                </a>
+              </li>
             </ul>
             <form className="d-flex">
-              <button
-                className="btn btn-outline-light me-2 border-radius-0"
-                type="submit"
-              >
-                Login
-              </button>
               <button className="btn btn-danger " type="submit">
                 Subscribe Now
               </button>
